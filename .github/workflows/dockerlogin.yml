@@ -23,9 +23,9 @@ jobs:
     - name: Docker Pull
       run: docker pull hello-world
     - name: Docker Tag
-      run: docker tag docker govarthan12/helloworld
+      run: docker tag govarthan12/hello-world
     - name: Docker Push
-      run: docker push govarthan12/helloworld
+      run: docker push govarthan12/hello-world
   Logintodockerhub2:
     runs-on: ubuntu-latest
     environment: QA
