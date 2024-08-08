@@ -23,7 +23,7 @@ jobs:
     - name: Docker Pull
       run: docker pull hello-world
     - name: Docker Tag
-      run: docker tag govarthan12/hello-world
+      run: docker tag hello-world govarthan12/hello-world
     - name: Docker Push
       run: docker push govarthan12/hello-world
   Logintodockerhub2:
